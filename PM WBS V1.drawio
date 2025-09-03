@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0" version="28.1.2">
   <diagram name="Page-1" id="4XCOkrREE6T9JBMiZgMP">
-    <mxGraphModel dx="1111" dy="1780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="778" dy="1576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -32,22 +32,22 @@
           <mxGeometry x="1470" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kDNrH8pa0huW1Xx7Rnd4-6" value="1.1 Register new user" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="100" y="260" width="140" height="60" as="geometry" />
+          <mxGeometry x="80" y="260" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kDNrH8pa0huW1Xx7Rnd4-7" value="1.2 Validate user (OTP)" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="100" y="350" width="120" height="60" as="geometry" />
+          <mxGeometry x="80" y="350" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kDNrH8pa0huW1Xx7Rnd4-8" value="1.3 Confirm registration" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="100" y="440" width="120" height="60" as="geometry" />
+          <mxGeometry x="80" y="450" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kDNrH8pa0huW1Xx7Rnd4-9" value="2.3 Role based authentication" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="305" y="440" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="440" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kDNrH8pa0huW1Xx7Rnd4-10" value="2.1 Validate credentials" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="305" y="260" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="260" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kDNrH8pa0huW1Xx7Rnd4-11" value="2.2 Verify credentials" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="305" y="350" width="135" height="60" as="geometry" />
+        <mxCell id="kDNrH8pa0huW1Xx7Rnd4-11" value="2.2 Verify&amp;nbsp;&lt;div&gt;credentials&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="350" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
