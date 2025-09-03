@@ -31,6 +31,24 @@
         <mxCell id="kDNrH8pa0huW1Xx7Rnd4-4" value="7. About Page" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1470" y="160" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="kDNrH8pa0huW1Xx7Rnd4-6" value="1.1 Register new user" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="100" y="260" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kDNrH8pa0huW1Xx7Rnd4-7" value="1.2 Validate user (OTP)" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="100" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kDNrH8pa0huW1Xx7Rnd4-8" value="1.3 Confirm registration" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="100" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kDNrH8pa0huW1Xx7Rnd4-9" value="2.3 Role based authentication" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kDNrH8pa0huW1Xx7Rnd4-10" value="2.1 Validate credentials" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kDNrH8pa0huW1Xx7Rnd4-11" value="2.2 Verify credentials" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="350" width="135" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
