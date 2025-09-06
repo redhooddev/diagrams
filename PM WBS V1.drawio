@@ -22,6 +22,15 @@
         <mxCell id="Di358GA9zsQgDLE0gk4m-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5IF1ZIwpe9jYq8gnFkuq-1" target="kDNrH8pa0huW1Xx7Rnd4-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Di358GA9zsQgDLE0gk4m-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5IF1ZIwpe9jYq8gnFkuq-1" target="IpIS_R521S_r5ul5ybi_-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Di358GA9zsQgDLE0gk4m-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5IF1ZIwpe9jYq8gnFkuq-1" target="kDNrH8pa0huW1Xx7Rnd4-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Di358GA9zsQgDLE0gk4m-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="5IF1ZIwpe9jYq8gnFkuq-1" target="kDNrH8pa0huW1Xx7Rnd4-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="5IF1ZIwpe9jYq8gnFkuq-1" value="MMA Sri Lanka" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1110" y="-120" width="120" height="60" as="geometry" />
         </mxCell>
@@ -98,13 +107,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kDNrH8pa0huW1Xx7Rnd4-2" value="6. Events Page" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1290" y="150" width="120" height="60" as="geometry" />
+          <mxGeometry x="1290" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kDNrH8pa0huW1Xx7Rnd4-3" value="Contact Page" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1910" y="160" width="120" height="60" as="geometry" />
+          <mxGeometry x="1990" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kDNrH8pa0huW1Xx7Rnd4-4" value="About Page" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1670" y="160" width="120" height="60" as="geometry" />
+          <mxGeometry x="1770" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kDNrH8pa0huW1Xx7Rnd4-6" value="1.1 Register new user" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="130" y="280" width="140" height="60" as="geometry" />
@@ -179,7 +188,7 @@
           <mxGeometry x="1380" y="460" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IpIS_R521S_r5ul5ybi_-1" value="Betting Functionality" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1470" y="160" width="120" height="60" as="geometry" />
+          <mxGeometry x="1550" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Di358GA9zsQgDLE0gk4m-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Di358GA9zsQgDLE0gk4m-27" target="Di358GA9zsQgDLE0gk4m-28">
           <mxGeometry relative="1" as="geometry" />
