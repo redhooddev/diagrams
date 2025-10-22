@@ -86,6 +86,30 @@
         <mxCell id="3gHYaD6FzkBsOfii6fHW-25" value="+ onCreate(): void&lt;div&gt;+ onUpgrade(): void&lt;/div&gt;&lt;div&gt;+ insertUser(): Boolean&lt;/div&gt;&lt;div&gt;+ checkUser(): Boolean&lt;/div&gt;&lt;div&gt;+ checkEmailPassword(): Boolean&lt;/div&gt;&lt;div&gt;+ getAllRooms(): ArrayList&amp;lt;Room&amp;gt;&lt;/div&gt;&lt;div&gt;+ getAllRoomTypes(): ArrayList&amp;lt;Room&amp;gt;&lt;/div&gt;&lt;div&gt;+ addToCart(roomId: int): void&lt;/div&gt;&lt;div&gt;+ getCartItems(): ArrayList&amp;lt;CartItem&amp;gt;&lt;/div&gt;&lt;div&gt;+ updateQuantity(cartId: int, newQuantity: int): void&lt;/div&gt;&lt;div&gt;+ clearCart(): void&lt;/div&gt;&lt;div&gt;+ placeOrder(): Boolean&lt;/div&gt;&lt;div&gt;+ getOrderHistory(): ArrayList&amp;lt;Order&amp;gt;&lt;/div&gt;&lt;div&gt;+ getAllServices(): ArrayList&amp;lt;Service&amp;gt;&lt;/div&gt;&lt;div&gt;+ addServiceBooking(): Boolean&lt;/div&gt;&lt;div&gt;+ getUserDetails(): String Array&lt;/div&gt;&lt;div&gt;+ getUpcomingRoomBooking(): Order&lt;/div&gt;&lt;div&gt;+ getUpcomingServiceReservation(): ServiceBooking&lt;/div&gt;&lt;div&gt;+ addRoomType(): void&lt;/div&gt;&lt;div&gt;+ addRoom(): void&lt;/div&gt;&lt;div&gt;+ addService(): void&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="3gHYaD6FzkBsOfii6fHW-22">
           <mxGeometry y="78" width="300" height="312" as="geometry" />
         </mxCell>
+        <mxCell id="3gHYaD6FzkBsOfii6fHW-26" value="RoomsFragment" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1800" y="240" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3gHYaD6FzkBsOfii6fHW-27" value="ServicesFragment" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1800" y="310" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3gHYaD6FzkBsOfii6fHW-28" value="CartFragment" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1800" y="380" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3gHYaD6FzkBsOfii6fHW-29" value="LoginFragment" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1800" y="450" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3gHYaD6FzkBsOfii6fHW-30" value="ProfileFragment" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1800" y="525" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3gHYaD6FzkBsOfii6fHW-33" value="RoomAdapter" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1960" y="240" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3gHYaD6FzkBsOfii6fHW-34" value="ServicesAdapter" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1960" y="320" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3gHYaD6FzkBsOfii6fHW-35" value="CartAdapter" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1960" y="400" width="110" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
