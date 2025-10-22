@@ -46,7 +46,7 @@
         <mxCell id="3gHYaD6FzkBsOfii6fHW-12" value="+ getorderId(): int&lt;div&gt;+ getOrderDate(): String&lt;/div&gt;&lt;div&gt;+ getTotalAmount(): double&lt;/div&gt;&lt;div&gt;+ getOrderDetails(): String&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="3gHYaD6FzkBsOfii6fHW-9">
           <mxGeometry y="108" width="160" height="72" as="geometry" />
         </mxCell>
-        <mxCell id="3gHYaD6FzkBsOfii6fHW-14" value="Cart Item" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3gHYaD6FzkBsOfii6fHW-14" value="CartItem" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="880" y="240" width="190" height="160" as="geometry">
             <mxRectangle x="141" y="200" width="70" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -59,6 +59,20 @@
         </mxCell>
         <mxCell id="3gHYaD6FzkBsOfii6fHW-17" value="+ getCartId(): int&lt;div&gt;+ getRoom(): Room&lt;/div&gt;&lt;div&gt;+ getQuantity(): int&lt;/div&gt;&lt;div&gt;+ setQuantity(quantity: int): void&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="3gHYaD6FzkBsOfii6fHW-14">
           <mxGeometry y="88" width="190" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="3gHYaD6FzkBsOfii6fHW-18" value="ServiceBooking" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="240" width="190" height="150" as="geometry">
+            <mxRectangle x="141" y="200" width="70" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3gHYaD6FzkBsOfii6fHW-19" value="- bookingId: int&lt;div&gt;- bookingDateTime: String&lt;/div&gt;&lt;div&gt;- serviceName: String&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="3gHYaD6FzkBsOfii6fHW-18">
+          <mxGeometry y="26" width="190" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="3gHYaD6FzkBsOfii6fHW-20" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="3gHYaD6FzkBsOfii6fHW-18">
+          <mxGeometry y="80" width="190" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="3gHYaD6FzkBsOfii6fHW-21" value="+ getBookingtId(): int&lt;div&gt;+ getBookingDateTime(): String&lt;/div&gt;&lt;div&gt;+ getServiceName(): String&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="3gHYaD6FzkBsOfii6fHW-18">
+          <mxGeometry y="88" width="190" height="62" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
