@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0" version="28.2.7">
   <diagram name="Page-1" id="-FD-WwoNRSB1jqXmBbmY">
-    <mxGraphModel dx="778" dy="476" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="648" dy="397" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -73,6 +73,18 @@
         </mxCell>
         <mxCell id="3gHYaD6FzkBsOfii6fHW-21" value="+ getBookingtId(): int&lt;div&gt;+ getBookingDateTime(): String&lt;/div&gt;&lt;div&gt;+ getServiceName(): String&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="3gHYaD6FzkBsOfii6fHW-18">
           <mxGeometry y="88" width="190" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="3gHYaD6FzkBsOfii6fHW-22" value="DatabaseHelper" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="240" width="300" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="3gHYaD6FzkBsOfii6fHW-23" value="+ DB_NAME: String&lt;div&gt;+ DB_VERSION: String&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="3gHYaD6FzkBsOfii6fHW-22">
+          <mxGeometry y="26" width="300" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="3gHYaD6FzkBsOfii6fHW-24" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="3gHYaD6FzkBsOfii6fHW-22">
+          <mxGeometry y="70" width="300" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="3gHYaD6FzkBsOfii6fHW-25" value="+ onCreate(): void&lt;div&gt;+ onUpgrade(): void&lt;/div&gt;&lt;div&gt;+ insertUser(): Boolean&lt;/div&gt;&lt;div&gt;+ checkUser(): Boolean&lt;/div&gt;&lt;div&gt;+ checkEmailPassword(): Boolean&lt;/div&gt;&lt;div&gt;+ getAllRooms(): ArrayList&amp;lt;Room&amp;gt;&lt;/div&gt;&lt;div&gt;+ getAllRoomTypes(): ArrayList&amp;lt;Room&amp;gt;&lt;/div&gt;&lt;div&gt;+ addToCart(roomId: int): void&lt;/div&gt;&lt;div&gt;+ getCartItems(): ArrayList&amp;lt;CartItem&amp;gt;&lt;/div&gt;&lt;div&gt;+ updateQuantity(cartId: int, newQuantity: int): void&lt;/div&gt;&lt;div&gt;+ clearCart(): void&lt;/div&gt;&lt;div&gt;+ placeOrder(): Boolean&lt;/div&gt;&lt;div&gt;+ getOrderHistory(): ArrayList&amp;lt;Order&amp;gt;&lt;/div&gt;&lt;div&gt;+ getAllServices(): ArrayList&amp;lt;Service&amp;gt;&lt;/div&gt;&lt;div&gt;+ addServiceBooking(): Boolean&lt;/div&gt;&lt;div&gt;+ getUserDetails(): String[]&lt;/div&gt;&lt;div&gt;+ getUpcomingRoomBooking(): Order&lt;/div&gt;&lt;div&gt;+ getUpcomingServiceReservation(): ServiceBooking&lt;/div&gt;&lt;div&gt;+ addRoomType(): void&lt;/div&gt;&lt;div&gt;+ addRoom(): void&lt;/div&gt;&lt;div&gt;+addService(): void&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="3gHYaD6FzkBsOfii6fHW-22">
+          <mxGeometry y="78" width="300" height="312" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
